@@ -2,6 +2,8 @@
 
 Carter is a simple, lightweight, and fast project to send emails from the command line using OAuth2 authentication with multiple providers.
 
+![Carter postman](.github/img/mailer.jpg)
+
 ## Installation
 
 Installation must be carried out directly from the official repository, preparing the ecosystem with the requirements presented below.
