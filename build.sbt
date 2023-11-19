@@ -9,6 +9,7 @@ lazy val root = project
     scalaVersion := scala3Version,
 
     libraryDependencies ++= Seq(
+      "org.scalameta" %% "munit" % "0.7.29" % Test,
       "com.google.api-client" % "google-api-client" % "2.0.0",
       "com.google.oauth-client" % "google-oauth-client-jetty" % "1.34.1",
       "com.google.apis" % "google-api-services-gmail" % "v1-rev20220404-2.0.0",

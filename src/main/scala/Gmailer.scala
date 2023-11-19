@@ -24,7 +24,7 @@ import scala.jdk.CollectionConverters.SetHasAsJava
 import com.google.api.services.gmail.GmailScopes.GMAIL_SEND
 import javax.mail.Message.RecipientType.TO
 
-class Gmailer {
+class Gmailer extends Mailer {
   private val service: Gmail = {
     val httpTransport = GoogleNetHttpTransport.newTrustedTransport()
     val jsonFactory = GsonFactory.getDefaultInstance
